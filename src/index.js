@@ -1,4 +1,5 @@
-const v1 = require('uuid').v1;
+// const v5 = require('uuid');i
+import v5 from 'uuid';
 
 module.exports = {
     sayHello: function(name='you'){
@@ -6,7 +7,7 @@ module.exports = {
     },
 
     iden: function(){
-        return v1() + 1;
+        return v5() + 1;
     },
 
     sayBye: function(){
